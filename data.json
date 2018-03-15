@@ -1,0 +1,766 @@
+{
+  "count": 83,
+  "entries": [
+    {
+      "API": "AniList",
+      "Description": "Anime discovery \u0026 tracking",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://github.com/AniList/ApiV2-GraphQL-Docs",
+      "Category": "Anime"
+    },
+    {
+      "API": "Kitsu",
+      "Description": "Anime discovery platform",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "http://docs.kitsu.apiary.io/",
+      "Category": "Anime"
+    },
+    {
+      "API": "Dribbble",
+      "Description": "Design",
+      "Auth": "OAuth",
+      "HTTPS": false,
+      "Cors": "unknown",
+      "Link": "http://developer.dribbble.com/v1/",
+      "Category": "Art \u0026 Design"
+    },
+    {
+      "API": "Icons8",
+      "Description": "Icons",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "http://docs.icons8.apiary.io/#reference/0/meta",
+      "Category": "Art \u0026 Design"
+    },
+    {
+      "API": "Noun Project",
+      "Description": "Icons",
+      "Auth": "OAuth",
+      "HTTPS": false,
+      "Cors": "unknown",
+      "Link": "http://api.thenounproject.com/index.html",
+      "Category": "Art \u0026 Design"
+    },
+    {
+      "API": "Bhagavad Gita",
+      "Description": "Bhagavad Gita text",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "yes",
+      "Link": "https://bhagavadgita.io/api",
+      "Category": "Books"
+    },
+    {
+      "API": "Google Books",
+      "Description": "Books",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developers.google.com/books/",
+      "Category": "Books"
+    },
+    {
+      "API": "Gmail",
+      "Description": "Flexible, RESTful access to the user's inbox",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developers.google.com/gmail/api/",
+      "Category": "Business"
+    },
+    {
+      "API": "Google Analytics",
+      "Description":
+        "Collect, configure, and analyze your data to reach the right audience",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developers.google.com/analytics/",
+      "Category": "Business"
+    },
+    {
+      "API": "Trello",
+      "Description":
+        "Boards, lists, and cards to help you organize and prioritize your projects",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developers.trello.com/",
+      "Category": "Business"
+    },
+    {
+      "API": "Google Calendar",
+      "Description": "Display, create and modify Google calendar events",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developers.google.com/google-apps/calendar/",
+      "Category": "Calendar"
+    },
+    {
+      "API": "Box",
+      "Description": "File Sharing and Storage",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developer.box.com/",
+      "Category": "Cloud Storage \u0026 File Sharing"
+    },
+    {
+      "API": "Dropbox",
+      "Description": "File Sharing and Storage",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://www.dropbox.com/developers",
+      "Category": "Cloud Storage \u0026 File Sharing"
+    },
+    {
+      "API": "Google Drive",
+      "Description": "File Sharing and Storage",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developers.google.com/drive/",
+      "Category": "Cloud Storage \u0026 File Sharing"
+    },
+    {
+      "API": "OneDrive",
+      "Description": "File Sharing and Storage",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://dev.onedrive.com/",
+      "Category": "Cloud Storage \u0026 File Sharing"
+    },
+    {
+      "API": "Faceplusplus",
+      "Description": "A tool to detect face",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://www.faceplusplus.com/",
+      "Category": "Development"
+    },
+    {
+      "API": "Gitter",
+      "Description": "Chat for GitHub",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://github.com/gitterHQ/docs",
+      "Category": "Development"
+    },
+    {
+      "API": "LiveEdu",
+      "Description": "Live Coding Streaming",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://www.liveedu.tv/developer/applications/",
+      "Category": "Development"
+    },
+    {
+      "API": "StackExchange",
+      "Description": "Q\u0026A forum for developers",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://api.stackexchange.com/",
+      "Category": "Development"
+    },
+    {
+      "API": "Pocket",
+      "Description": "Bookmarking service",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://getpocket.com/developer/",
+      "Category": "Documents \u0026 Productivity"
+    },
+    {
+      "API": "Todoist",
+      "Description": "Todo Lists",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developer.todoist.com",
+      "Category": "Documents \u0026 Productivity"
+    },
+    {
+      "API": "Wunderlist",
+      "Description": "Todo Lists",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developer.wunderlist.com/documentation",
+      "Category": "Documents \u0026 Productivity"
+    },
+    {
+      "API": "Eventbrite",
+      "Description": "Find events",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://www.eventbrite.com/developer/v3/",
+      "Category": "Events"
+    },
+    {
+      "API": "Eve Online",
+      "Description": "Third-Party Developer Documentation",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link":
+        "https://eveonline-third-party-documentation.readthedocs.io/en/latest/",
+      "Category": "Games \u0026 Comics"
+    },
+    {
+      "API": "Steam",
+      "Description": "Steam Client Interaction",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developer.valvesoftware.com/wiki/Steam_Web_API",
+      "Category": "Games \u0026 Comics"
+    },
+    {
+      "API": "OpenStreetMap",
+      "Description": "Navigation, geolocation and geographical data",
+      "Auth": "OAuth",
+      "HTTPS": false,
+      "Cors": "unknown",
+      "Link": "http://wiki.openstreetmap.org/wiki/API",
+      "Category": "Geocoding"
+    },
+    {
+      "API": "Upwork",
+      "Description": "Freelance job board and management system",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developers.upwork.com/",
+      "Category": "Jobs"
+    },
+    {
+      "API": "Clarifai",
+      "Description": "Computer Vision",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developer.clarifai.com/",
+      "Category": "Machine Learning"
+    },
+    {
+      "API": "Wit.ai",
+      "Description": "Natural Language Processing",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://wit.ai/",
+      "Category": "Machine Learning"
+    },
+    {
+      "API": "Deezer",
+      "Description": "Music",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developers.deezer.com/api",
+      "Category": "Music"
+    },
+    {
+      "API": "Discogs",
+      "Description": "Music",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://www.discogs.com/developers/",
+      "Category": "Music"
+    },
+    {
+      "API": "Genius",
+      "Description": "Crowdsourced lyrics and music knowledge",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://docs.genius.com/",
+      "Category": "Music"
+    },
+    {
+      "API": "Jamendo",
+      "Description": "Music",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developer.jamendo.com/v3.0",
+      "Category": "Music"
+    },
+    {
+      "API": "Mixcloud",
+      "Description": "Music",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://www.mixcloud.com/developers/",
+      "Category": "Music"
+    },
+    {
+      "API": "Songkick",
+      "Description": "Music Events",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://www.songkick.com/developer/",
+      "Category": "Music"
+    },
+    {
+      "API": "Spotify",
+      "Description":
+        "View Spotify music catalog, manage users' libraries, get recommendations, and more",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://beta.developer.spotify.com/documentation/web-api/",
+      "Category": "Music"
+    },
+    {
+      "API": "Feedbin",
+      "Description": "RSS reader",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://github.com/feedbin/feedbin-api",
+      "Category": "News"
+    },
+    {
+      "API": "NPR One",
+      "Description": "Personalized news listening experience from NPR",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "http://dev.npr.org/api/",
+      "Category": "News"
+    },
+    {
+      "API": "Wikidata",
+      "Description":
+        "Collaboratively edited knowledge base operated by the Wikimedia Foundation",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://www.wikidata.org/w/api.php?action=help",
+      "Category": "Open Data"
+    },
+    {
+      "API": "Yelp",
+      "Description": "Find Local Business",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://www.yelp.com/developers/documentation/v3",
+      "Category": "Open Data"
+    },
+    {
+      "API": "EPO",
+      "Description": "European patent search system api",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developers.epo.org/",
+      "Category": "Patent"
+    },
+    {
+      "API": "Medium",
+      "Description":
+        "Community of readers and writers offering unique perspectives on ideas",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://github.com/Medium/medium-api-docs",
+      "Category": "Personality"
+    },
+    {
+      "API": "500px",
+      "Description": "Photography Community",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://github.com/500px/api-documentation",
+      "Category": "Photography"
+    },
+    {
+      "API": "Flickr",
+      "Description": "Flickr Services",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://www.flickr.com/services/api/",
+      "Category": "Photography"
+    },
+    {
+      "API": "Getty Images",
+      "Description":
+        "Build applications using the world's most powerful imagery",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "http://developers.gettyimages.com/en/",
+      "Category": "Photography"
+    },
+    {
+      "API": "Gfycat",
+      "Description": "Jiffier GIFs",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developers.gfycat.com/api/",
+      "Category": "Photography"
+    },
+    {
+      "API": "Imgur",
+      "Description": "Images",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://apidocs.imgur.com/",
+      "Category": "Photography"
+    },
+    {
+      "API": "Unsplash",
+      "Description": "Photography",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://unsplash.com/developers",
+      "Category": "Photography"
+    },
+    {
+      "API": "eBay",
+      "Description": "Sell and Buy on eBay",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://go.developer.ebay.com/",
+      "Category": "Shopping"
+    },
+    {
+      "API": "Buffer",
+      "Description": "Access to pending and sent updates in Buffer",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://buffer.com/developers/api",
+      "Category": "Social"
+    },
+    {
+      "API": "Cisco Spark",
+      "Description": "Team Collaboration Software",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developer.ciscospark.com",
+      "Category": "Social"
+    },
+    {
+      "API": "Discord",
+      "Description":
+        "Make bots for Discord, integrate Discord onto an external platform",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://discordapp.com/developers/docs/intro",
+      "Category": "Social"
+    },
+    {
+      "API": "Disqus",
+      "Description": "Communicate with Disqus data",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://disqus.com/api/docs/auth/",
+      "Category": "Social"
+    },
+    {
+      "API": "Facebook",
+      "Description":
+        "Facebook Login, Share on FB, Social Plugins, Analytics and more",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developers.facebook.com/",
+      "Category": "Social"
+    },
+    {
+      "API": "Foursquare",
+      "Description":
+        "Interact with Foursquare users and places (geolocation-based checkins, photos, tips, events, etc)",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developer.foursquare.com/",
+      "Category": "Social"
+    },
+    {
+      "API": "Full Contact",
+      "Description": "Get Social Media profiles and contact Information",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://www.fullcontact.com/developer/docs/",
+      "Category": "Social"
+    },
+    {
+      "API": "Instagram",
+      "Description":
+        "Instagram Login, Share on Instagram, Social Plugins and more",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://www.instagram.com/developer/",
+      "Category": "Social"
+    },
+    {
+      "API": "LinkedIn",
+      "Description": "The foundation of all digital integrations with LinkedIn",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developer.linkedin.com/docs/rest-api",
+      "Category": "Social"
+    },
+    {
+      "API": "Pinterest",
+      "Description": "The world's catalog of ideas",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developers.pinterest.com/",
+      "Category": "Social"
+    },
+    {
+      "API": "PWRTelegram bot",
+      "Description": "Boosted version of the Telegram bot API",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://pwrtelegram.xyz",
+      "Category": "Social"
+    },
+    {
+      "API": "Reddit",
+      "Description": "Homepage of the internet",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://www.reddit.com/dev/api",
+      "Category": "Social"
+    },
+    {
+      "API": "Slack",
+      "Description": "Team Instant Messaging",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://api.slack.com/",
+      "Category": "Social"
+    },
+    {
+      "API": "Telegram Bot",
+      "Description": "Simplified HTTP version of the MTProto API for bots",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://core.telegram.org/bots/api",
+      "Category": "Social"
+    },
+    {
+      "API": "Telegram MTProto",
+      "Description": "Read and write Telegram data",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://core.telegram.org/api#getting-started",
+      "Category": "Social"
+    },
+    {
+      "API": "Tumblr",
+      "Description": "Read and write Tumblr Data",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://www.tumblr.com/docs/en/api/v2",
+      "Category": "Social"
+    },
+    {
+      "API": "Twitch",
+      "Description": "Game Streaming API",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://dev.twitch.tv/docs",
+      "Category": "Social"
+    },
+    {
+      "API": "Twitter",
+      "Description": "Read and write Twitter data",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://dev.twitter.com/rest/public",
+      "Category": "Social"
+    },
+    {
+      "API": "vk",
+      "Description": "Read and write vk data",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://vk.com/dev/sites",
+      "Category": "Social"
+    },
+    {
+      "API": "Fitbit",
+      "Description": "Fitbit Information",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://dev.fitbit.com/",
+      "Category": "Sports \u0026 Fitness"
+    },
+    {
+      "API": "Strava",
+      "Description": "Connect with athletes, activities and more",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://strava.github.io/api/",
+      "Category": "Sports \u0026 Fitness"
+    },
+    {
+      "API": "Semantira",
+      "Description":
+        "Text Analytics with sentiment analysis, categorization \u0026 named entity extraction",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://semantria.readme.io/docs",
+      "Category": "Text Analysis"
+    },
+    {
+      "API": "Watson Natural Language Understanding",
+      "Description": "Natural language processing for advanced text analysis",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link":
+        "https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/",
+      "Category": "Text Analysis"
+    },
+    {
+      "API": "Transport for Minneapolis, US",
+      "Description": "NexTrip API",
+      "Auth": "OAuth",
+      "HTTPS": false,
+      "Cors": "unknown",
+      "Link": "http://svc.metrotransit.org/",
+      "Category": "Transportation"
+    },
+    {
+      "API": "Transport for Sao Paulo, Brazil",
+      "Description": "SPTrans",
+      "Auth": "OAuth",
+      "HTTPS": false,
+      "Cors": "unknown",
+      "Link":
+        "http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx",
+      "Category": "Transportation"
+    },
+    {
+      "API": "Transport for Sweden",
+      "Description": "Public Transport consumer",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://www.trafiklab.se/api",
+      "Category": "Transportation"
+    },
+    {
+      "API": "Transport for Vancouver, Canada",
+      "Description": "TransLink",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developer.translink.ca/",
+      "Category": "Transportation"
+    },
+    {
+      "API": "Transport for Washington, US",
+      "Description": "Washington Metro transport API",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developer.wmata.com/",
+      "Category": "Transportation"
+    },
+    {
+      "API": "Uber",
+      "Description": "Uber ride requests and price estimation",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "yes",
+      "Link": "https://developer.uber.com/products",
+      "Category": "Transportation"
+    },
+    {
+      "API": "WhereIsMyTransport",
+      "Description": "Platform for public transport data in emerging cities",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developer.whereismytransport.com/",
+      "Category": "Transportation"
+    },
+    {
+      "API": "Bitly",
+      "Description": "URL shortener and link management",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "http://dev.bitly.com/get_started.html",
+      "Category": "URL Shorteners"
+    },
+    {
+      "API": "Dailymotion",
+      "Description": "Dailymotion Developer API",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developer.dailymotion.com/",
+      "Category": "Video"
+    },
+    {
+      "API": "Vimeo",
+      "Description": "Vimeo Developer API",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developer.vimeo.com/",
+      "Category": "Video"
+    },
+    {
+      "API": "YouTube",
+      "Description": "Add YouTube functionality to your sites and apps",
+      "Auth": "OAuth",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://developers.google.com/youtube/",
+      "Category": "Video"
+    }
+  ]
+}

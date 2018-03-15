@@ -1,0 +1,43 @@
+<link rel="import" href="bower_components/iron-ajax/iron-ajax.html">
+
+<dom-module id="px-service">
+    <template>
+
+        <iron-ajax 
+            auto
+            url="/data.json" 
+            handle-as="json" 
+            on-response="handleResponse"></iron-ajax>
+
+    </template>
+    <script>
+        Polymer({
+            is: 'px-service',
+            properties: {
+                tableData: {
+                    type: Array,
+                    notify: true,
+                    value: []
+                }
+            },
+            _transformData: function (data) {
+                var result = [];
+                for (var i = 0; i < data.length; i++) {
+                    result.push({
+                        API: data[i].API,
+                        Description: data[i].Description,
+                        Link: data[i].Link,
+                        Category: data[i].Category
+                    })
+                }
+                return result;
+            },
+            handleResponse: function (e) {
+                this.set('tableData', this._transformData(e.detail.response.entries));
+            },
+            makeRequest: function () {
+                this.$$('iron-ajax').generateRequest();
+            }
+        });
+    </script>
+</dom-module>

@@ -1,0 +1,100 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+<dom-module id="px-table">
+    <template>
+        <style>
+            :host {
+                display: block;
+            }
+
+            .table {
+                font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            td,
+            th {
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr:hover {
+                background-color: #ddd;
+            }
+
+            th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: left;
+                background-color: #4CAF50;
+                color: white;
+            }
+        </style>
+        <table class="table">
+            <thead class="thead">
+                <tr>
+                    <template is="dom-repeat" items="[[columns]]" as="columnName">
+                        <th scope="col">[[columnName]]</th>
+                    </template>
+                </tr>
+            </thead>
+            <tbody>
+                <template is="dom-repeat" items="[[tableData]]" as="row" filter="[[computeFilter(searchString)]]">
+                    <tr>
+                        <template is="dom-repeat" items="[[columns]]">
+                            <td scope="row">[[getValue(row, item)]]</td>
+                        </template>
+                    </tr>
+                </template>
+            </tbody>
+        </table>
+    </template>
+    <script>
+        Polymer({
+            is: 'px-table',
+            properties: {
+                tableData: {
+                    type: Array,
+                    value: []
+                },
+                columns: {
+                    type: Array,
+                    computed: 'getColumns(tableData)'
+                }
+            },
+            computeFilter: function (string) {
+                if (!string) {
+                    // set filter to null to disable filtering
+                    return null;
+                } else {
+                    // return a filter function for the current search string
+                    string = string.toLowerCase();
+                    return function (entry) {
+                        var first = entry.API.toLowerCase();
+                        var last = entry.Category.toLowerCase();
+                        return (first.indexOf(string) != -1 ||
+                            last.indexOf(string) != -1);
+                    };
+                }
+            },
+            getValue: function (row, columnName) {
+                if (row && columnName) {
+                    return row[columnName];
+                }
+                return '';
+            },
+            getColumns: function (tableData) {
+                if (tableData && tableData.length) {
+                    return Object.keys(tableData[0]);
+                } else {
+                    return []
+                }
+            }
+        });
+    </script>
+</dom-module>

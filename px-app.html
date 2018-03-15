@@ -1,0 +1,59 @@
+<link rel="import" href="px-table.html">
+<link rel="import" href="px-service.html">
+<link rel="import" href="utility-behavior.html">
+
+<dom-module id="px-app">
+    <template>
+        <style>
+            :host {
+                display: block;
+                font-size: 24px;
+                font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            }
+
+            .border {
+                border: 1px solid black;
+                padding: 0px 20px 20px 20px;
+            }
+
+            input {
+                font-size: 24px;
+                height: 30px;
+            }
+            select {
+                font-size: 24px;
+                height: 40px;
+            }
+        </style>
+        <px-service table-data="{{tableData}}"></px-service>
+        <div class="border">
+            <h1>List of Available Public APIs</h1>
+            Search By Name:
+            <input type="text" value="{{searchString::input}}"> Sort By:
+            <select on-input="_handleSort">
+                <option value="API">API</option>
+                <option value="Description">Description</option>
+                <option value="Link">Link</option>
+                <option value="Category">Category</option>
+            </select>
+        </div>
+        <px-table table-data="[[tableData]]" search-string="[[searchString]]"></px-table>
+    </template>
+    <script>
+        Polymer({
+            is: 'px-app',
+            behaviors: [utilityBehavior],
+            properties: {
+                tableData: {
+                    type: Array,
+                    value: []
+                },
+            },
+            _handleSort: function (e) {
+                var data = this.sort(this.tableData, e.target.value);
+                this.tableData = null;
+                this.set('tableData', data);
+            }
+        });
+    </script>
+</dom-module>

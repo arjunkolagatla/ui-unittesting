@@ -1,0 +1,21 @@
+{
+  "name": "ui-testing",
+  "authors": [
+    "212594153 <girishvarma.vegesna@ge.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "1.5",
+    "iron-ajax": "1.4.3"
+  }
+}
